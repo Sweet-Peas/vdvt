@@ -1,0 +1,143 @@
+XH
+H 19 areas 24 global symbols
+M smtp_strings
+O -mmcs51 --model-large
+A _CODE size 0 flags 0 addr 0
+A RSEG size 0 flags 0 addr 0
+A REG_BANK_0 size 8 flags 4 addr 0
+A DSEG size 0 flags 0 addr 0
+A OSEG size 0 flags 4 addr 0
+A ISEG size 0 flags 0 addr 0
+A IABS size 0 flags 8 addr 0
+A BSEG size 0 flags 80 addr 0
+A PSEG size 0 flags 50 addr 0
+A XSEG size 0 flags 40 addr 0
+A XABS size 0 flags 48 addr 0
+A XISEG size 0 flags 40 addr 0
+A HOME size 0 flags 20 addr 0
+A GSINIT0 size 0 flags 20 addr 0
+A GSINIT1 size 0 flags 20 addr 0
+A GSINIT2 size 0 flags 20 addr 0
+A GSINIT3 size 0 flags 20 addr 0
+A GSINIT4 size 0 flags 20 addr 0
+A GSINIT5 size 0 flags 20 addr 0
+A GSINIT size 0 flags 20 addr 0
+A GSFINAL size 0 flags 20 addr 0
+A CSEG size 0 flags 20 addr 0
+A CONST size 9B flags 20 addr 0
+S _smtp_content_type_text Def0050
+S G$smtp_crnl$0$0 Def0092
+S _smtp_quit Def008B
+S G$smtp_subject$0$0 Def0046
+S G$smtp_auth$0$0 Def0080
+S _smtp_cc Def003A
+S G$smtp_from$0$0 Def003F
+S G$smtp_mail_from$0$0 Def0018
+S G$smtp_250_dsn$0$0 Def0078
+S G$smtp_rcpt_to$0$0 Def0024
+S G$smtp_content_type_text$0$0 Def0050
+S _smtp_220 Def0000
+S G$smtp_quit$0$0 Def008B
+S G$smtp_cc$0$0 Def003A
+S _smtp_334 Def0004
+S _smtp_235 Def0008
+S _smtp_data Def002E
+S _smtp_crnlperiodcrnl Def0095
+S _smtp_to Def0035
+S G$smtp_220$0$0 Def0000
+S _smtp_helo Def000C
+S _smtp_ehlo Def0012
+S G$smtp_data$0$0 Def002E
+S G$smtp_235$0$0 Def0008
+S G$smtp_334$0$0 Def0004
+S _smtp_crnl Def0092
+S _smtp_subject Def0046
+S _smtp_auth Def0080
+S _smtp_from Def003F
+S G$smtp_crnlperiodcrnl$0$0 Def0095
+S _smtp_mail_from Def0018
+S G$smtp_to$0$0 Def0035
+S _smtp_rcpt_to Def0024
+S _smtp_250_dsn Def0078
+S G$smtp_ehlo$0$0 Def0012
+S G$smtp_helo$0$0 Def000C
+A XINIT size 0 flags 20 addr 0
+A CABS size 0 flags 28 addr 0
+T 00 00
+R 00 00 00 02
+T 00 00
+R 00 00 00 16
+T 00 00 32 32 30 00
+R 00 00 00 16
+T 00 04
+R 00 00 00 16
+T 00 04 33 33 34 00
+R 00 00 00 16
+T 00 08
+R 00 00 00 16
+T 00 08 32 33 35 00
+R 00 00 00 16
+T 00 0C
+R 00 00 00 16
+T 00 0C 48 45 4C 4F 20 00
+R 00 00 00 16
+T 00 12
+R 00 00 00 16
+T 00 12 65 68 6C 6F 20 00
+R 00 00 00 16
+T 00 18
+R 00 00 00 16
+T 00 18 4D 41 49 4C 20 46 52 4F 4D 3A 20 00
+R 00 00 00 16
+T 00 24
+R 00 00 00 16
+T 00 24 52 43 50 54 20 54 4F 3A 20 00
+R 00 00 00 16
+T 00 2E
+R 00 00 00 16
+T 00 2E 44 41 54 41 0D 0A 00
+R 00 00 00 16
+T 00 35
+R 00 00 00 16
+T 00 35 54 6F 3A 20 00
+R 00 00 00 16
+T 00 3A
+R 00 00 00 16
+T 00 3A 43 63 3A 20 00
+R 00 00 00 16
+T 00 3F
+R 00 00 00 16
+T 00 3F 46 72 6F 6D 3A 20 00
+R 00 00 00 16
+T 00 46
+R 00 00 00 16
+T 00 46 53 75 62 6A 65 63 74 3A 20 00
+R 00 00 00 16
+T 00 50
+R 00 00 00 16
+T 00 50 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20
+R 00 00 00 16
+T 00 5E 74 65 78 74 2F 70 6C 61 69 6E 3B 20 63 68
+R 00 00 00 16
+T 00 6C 61 72 73 65 74 3D 55 54 46 2D 38 00
+R 00 00 00 16
+T 00 78
+R 00 00 00 16
+T 00 78 32 35 30 20 44 53 4E 00
+R 00 00 00 16
+T 00 80
+R 00 00 00 16
+T 00 80 61 75 74 68 20 6C 6F 67 69 6E 00
+R 00 00 00 16
+T 00 8B
+R 00 00 00 16
+T 00 8B 51 55 49 54 0D 0A 00
+R 00 00 00 16
+T 00 92
+R 00 00 00 16
+T 00 92 0D 0A 00
+R 00 00 00 16
+T 00 95
+R 00 00 00 16
+T 00 95 0D 0A 2E 0D 0A 00
+R 00 00 00 16

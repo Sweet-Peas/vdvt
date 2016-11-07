@@ -1,0 +1,276 @@
+;!FILE obj\Debug\uip\timer.asm
+XH
+H 1A areas BD global symbols
+M timer
+O -mmcs51 --model-large
+S __sdcc_banked_ret Ref0000
+S __gptrput Ref0000
+S _bp Ref0000
+S _clock_time Ref0000
+S __gptrget Ref0000
+A _CODE size 0 flags 0 addr 0
+A RSEG size 0 flags 0 addr 0
+A REG_BANK_0 size 8 flags 4 addr 0
+A DSEG size 0 flags 0 addr 0
+A OSEG size 0 flags 4 addr 0
+A ISEG size 0 flags 0 addr 0
+A IABS size 0 flags 8 addr 0
+A BSEG size 0 flags 80 addr 0
+A PSEG size 0 flags 50 addr 0
+A XSEG size 0 flags 40 addr 0
+A XABS size 0 flags 48 addr 0
+A XISEG size 0 flags 40 addr 0
+A HOME size 0 flags 20 addr 0
+A GSINIT0 size 0 flags 20 addr 0
+A GSINIT1 size 0 flags 20 addr 0
+A GSINIT2 size 0 flags 20 addr 0
+A GSINIT3 size 0 flags 20 addr 0
+A GSINIT4 size 0 flags 20 addr 0
+A GSINIT5 size 0 flags 20 addr 0
+A GSINIT size 0 flags 20 addr 0
+A GSFINAL size 0 flags 20 addr 0
+A CSEG size 0 flags 20 addr 0
+A UIP_BANK size 119 flags 20 addr 0
+S _timer_reset Def0050
+S XG$timer_reset$0$0 Def008C
+S _timer_expired Def00BA
+S G$timer_reset$0$0 Def0050
+S C$timer.c$110$1$1 Def00B7
+S A$timer$200 Def0078
+S XG$timer_expired$0$0 Def0116
+S A$timer$300 Def00F0
+S A$timer$210 Def0087
+S A$timer$201 Def0079
+S A$timer$120 Def000B
+S A$timer$310 Def0101
+S A$timer$301 Def00F2
+S A$timer$211 Def0088
+S A$timer$202 Def007A
+S A$timer$130 Def001A
+S A$timer$121 Def000D
+S C$timer.c$124$1$1 Def00BA
+S A$timer$320 Def0110
+S A$timer$311 Def0102
+S A$timer$302 Def00F4
+S A$timer$230 Def0093
+S A$timer$212 Def0089
+S A$timer$203 Def007B
+S A$timer$131 Def001C
+S A$timer$122 Def000E
+S A$timer$113 Def0000
+S C$timer.c$107$1$1 Def008F
+S A$timer$321 Def0112
+S A$timer$312 Def0103
+S A$timer$303 Def00F6
+S A$timer$240 Def00A4
+S A$timer$204 Def007C
+S A$timer$150 Def003C
+S A$timer$141 Def0029
+S A$timer$132 Def001E
+S A$timer$123 Def000F
+S A$timer$114 Def0002
+S C$timer.c$126$1$1 Def00C0
+S A$timer$322 Def0114
+S A$timer$313 Def0105
+S A$timer$304 Def00F9
+S A$timer$241 Def00A6
+S A$timer$205 Def007D
+S A$timer$151 Def003E
+S A$timer$142 Def002B
+S A$timer$133 Def001F
+S A$timer$124 Def0010
+S A$timer$115 Def0005
+S C$timer.c$127$1$1 Def0116
+S C$timer.c$109$1$1 Def0095
+S A$timer$314 Def0107
+S A$timer$305 Def00FA
+S A$timer$242 Def00A8
+S A$timer$233 Def0095
+S A$timer$215 Def008C
+S A$timer$206 Def007F
+S A$timer$161 Def004D
+S A$timer$152 Def0040
+S A$timer$143 Def002D
+S A$timer$134 Def0020
+S A$timer$125 Def0011
+S A$timer$116 Def0007
+S A$timer$315 Def010A
+S A$timer$306 Def00FB
+S A$timer$270 Def00C0
+S A$timer$252 Def00B7
+S A$timer$243 Def00AA
+S A$timer$234 Def0097
+S A$timer$207 Def0081
+S A$timer$180 Def0059
+S A$timer$153 Def0042
+S A$timer$144 Def002F
+S A$timer$135 Def0023
+S A$timer$126 Def0012
+S A$timer$117 Def0009
+S A$timer$325 Def0116
+S A$timer$316 Def010C
+S A$timer$307 Def00FE
+S A$timer$280 Def00D5
+S A$timer$271 Def00C2
+S A$timer$244 Def00AC
+S A$timer$235 Def0099
+S A$timer$208 Def0083
+S A$timer$190 Def0066
+S A$timer$181 Def005A
+S A$timer$154 Def0043
+S A$timer$145 Def0032
+S A$timer$136 Def0024
+S A$timer$127 Def0014
+S G$timer_expired$0$0 Def00BA
+S _timer_restart Def008F
+S A$timer$317 Def010D
+S A$timer$308 Def00FF
+S A$timer$290 Def00E5
+S A$timer$281 Def00D7
+S A$timer$272 Def00C4
+S A$timer$245 Def00AE
+S A$timer$236 Def009B
+S A$timer$209 Def0084
+S A$timer$191 Def0068
+S A$timer$182 Def005B
+S A$timer$155 Def0046
+S A$timer$146 Def0034
+S A$timer$137 Def0025
+S A$timer$128 Def0016
+S A$timer$318 Def010E
+S A$timer$309 Def0100
+S A$timer$291 Def00E6
+S A$timer$282 Def00D9
+S A$timer$273 Def00C6
+S A$timer$246 Def00AF
+S A$timer$237 Def009E
+S A$timer$228 Def008F
+S A$timer$192 Def006A
+S A$timer$183 Def005E
+S A$timer$156 Def0047
+S A$timer$147 Def0036
+S A$timer$138 Def0026
+S A$timer$129 Def0018
+S A$timer$319 Def010F
+S A$timer$292 Def00E7
+S A$timer$283 Def00DC
+S A$timer$274 Def00C9
+S A$timer$265 Def00BA
+S A$timer$247 Def00B2
+S A$timer$238 Def00A0
+S A$timer$229 Def0091
+S A$timer$193 Def006C
+S A$timer$184 Def005F
+S A$timer$157 Def0048
+S A$timer$148 Def0038
+S A$timer$293 Def00E8
+S A$timer$284 Def00DD
+S A$timer$275 Def00CB
+S A$timer$266 Def00BC
+S A$timer$248 Def00B3
+S A$timer$239 Def00A2
+S A$timer$194 Def006E
+S A$timer$185 Def0061
+S A$timer$176 Def0050
+S A$timer$158 Def004B
+S A$timer$149 Def003A
+S A$timer$294 Def00E9
+S A$timer$285 Def00DE
+S A$timer$276 Def00CD
+S A$timer$267 Def00BE
+S A$timer$249 Def00B4
+S A$timer$195 Def0071
+S A$timer$186 Def0062
+S A$timer$177 Def0052
+S A$timer$295 Def00EB
+S A$timer$286 Def00E1
+S A$timer$277 Def00CF
+S A$timer$196 Def0072
+S A$timer$187 Def0063
+S A$timer$178 Def0054
+S A$timer$296 Def00EC
+S A$timer$287 Def00E2
+S A$timer$278 Def00D1
+S A$timer$197 Def0073
+S A$timer$188 Def0064
+S A$timer$179 Def0056
+S _timer_set Def0000
+S A$timer$297 Def00ED
+S A$timer$288 Def00E3
+S A$timer$279 Def00D3
+S A$timer$198 Def0076
+S A$timer$189 Def0065
+S A$timer$298 Def00EE
+S A$timer$289 Def00E4
+S A$timer$199 Def0077
+S A$timer$299 Def00EF
+S C$timer.c$70$1$1 Def0029
+S C$timer.c$71$1$1 Def004D
+S XG$timer_restart$0$0 Def00B7
+S C$timer.c$90$1$1 Def008C
+S C$timer.c$67$0$0 Def0000
+S C$timer.c$87$1$1 Def0050
+S C$timer.c$69$1$1 Def000B
+S XG$timer_set$0$0 Def004D
+S G$timer_restart$0$0 Def008F
+S C$timer.c$89$1$1 Def0050
+S G$timer_set$0$0 Def0000
+A CONST size 0 flags 20 addr 0
+A XINIT size 0 flags 20 addr 0
+A CABS size 0 flags 28 addr 0
+T 00 00
+R 00 00 00 02
+T 00 00
+R 00 00 00 16
+T 00 00 C0 00 00 00 85 81 00 00 00 AA 82 AB 83 AC
+R 00 00 00 16 F1 23 03 00 02 F1 23 08 00 02
+T 00 0A F0 74 02 2A FD E4 3B FE 8C 07 8D 82 8E 83
+R 00 00 00 16
+T 00 18 8F F0 E5 00 00 00 24 FC F8 E6 12 00 00 A3
+R 00 00 00 16 F1 23 05 00 02 02 0D 00 01
+T 00 24 08 E6 12 00 00 C0 02 C0 03 C0 04 12 00 00
+R 00 00 00 16 02 05 00 01 02 0E 00 03
+T 00 32 AD 82 AE 83 D0 04 D0 03 D0 02 8A 82 8B 83
+R 00 00 00 16
+T 00 40 8C F0 ED 12 00 00 A3 EE 12 00 00 D0
+R 00 00 00 16 02 06 00 01 02 0B 00 01
+T 00 4C 00 00 00 02 00 00
+R 00 00 00 16 F1 23 02 00 02 02 06 00 00
+T 00 50
+R 00 00 00 16
+T 00 50 AA 82 AB 83 AC F0 12 00 00 FD A3 12 00 00
+R 00 00 00 16 02 09 00 04 02 0E 00 04
+T 00 5E FE 74 02 2A FF E4 3B F8 8C 01 8F 82 88 83
+R 00 00 00 16
+T 00 6C 89 F0 12 00 00 FF A3 12 00 00 F8 EF 2D FD
+R 00 00 00 16 02 05 00 04 02 0A 00 04
+T 00 7A E8 3E FE 8A 82 8B 83 8C F0 ED 12 00 00 A3
+R 00 00 00 16 02 0D 00 01
+T 00 88 EE 12 00 00 02 00 00
+R 00 00 00 16 02 04 00 01 02 07 00 00
+T 00 8F
+R 00 00 00 16
+T 00 8F AA 82 AB 83 AC F0 C0 02 C0 03 C0 04 12
+R 00 00 00 16
+T 00 9C 00 00 AD 82 AE 83 D0 04 D0 03 D0 02 8A 82
+R 00 00 00 16 02 02 00 03
+T 00 AA 8B 83 8C F0 ED 12 00 00 A3 EE 12 00 00 02
+R 00 00 00 16 02 08 00 01 02 0D 00 01
+T 00 B8 00 00
+R 00 00 00 16 02 02 00 00
+T 00 BA
+R 00 00 00 16
+T 00 BA AA 82 AB 83 AC F0 C0 02 C0 03 C0 04 12
+R 00 00 00 16
+T 00 C7 00 00 AD 82 AE 83 D0 04 D0 03 D0 02 8A 82
+R 00 00 00 16 02 02 00 03
+T 00 D5 8B 83 8C F0 12 00 00 FF A3 12 00 00 F8 ED
+R 00 00 00 16 02 07 00 04 02 0C 00 04
+T 00 E3 C3 9F FD EE 98 FE 74 02 2A FA E4 3B FB 8A
+R 00 00 00 16
+T 00 F1 82 8B 83 8C F0 12 00 00 FA A3 12 00 00 FB
+R 00 00 00 16 02 08 00 04 02 0D 00 04
+T 00 FF C3 ED 9A EE 64 80 8B F0 63 F0 80 95 F0 B3
+R 00 00 00 16
+T 01 0D E4 33 FD 7A 00 8D 82 8A 83 02 00 00
+R 00 00 00 16 02 0C 00 00

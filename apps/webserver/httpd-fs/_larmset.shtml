@@ -1,0 +1,18 @@
+%!: /header.html
+<center>
+<h1>Larminställningar</h1><hr color="#258D92" size="4" width="50%">
+<form><input type="hidden" name="clear" value="larmset">
+<table width="50%" class="mytab">
+<tr><td>Slå på nödstoppslarmet</td><td><input type="checkbox" name="larm1" %! get-check 1
+></td></tr>
+<tr><td>Slå på fallrörslarmet</td><td><input type="checkbox" name="larm2" %! get-check 2
+></td></tr>
+<tr><td>Max fallrörstemperatur</td><td><input type="text" name="ftemp" size="5" maxlength="5" value="%! get-temp 3
+"></td></tr>
+</table><br><br>
+<input type="submit" name="submit" value="Spara">
+<input type="reset" name="reset" value="Återställ">
+</form>
+<hr color="#258D92" size="4" width="50%"><br>
+</center>
+%!: /footer.html

@@ -1,0 +1,13 @@
++ C:\PROGRA~1\SDCC\bin\sdcpp.exe -nostdinc -Wall -std=c99 -I"C:\svnwork\vdvt\applications\adcd" -obj-ext=.rel -DSDCC_MODEL_SMALL -DSDCC_FLOAT_REENT -DSDCC=280 -DSDCC_REVISION=5117 -DSDCC_mcs51 -D__mcs51 -I"C:\Program Files\SDCC\bin\..\include\mcs51" -I"C:\Program Files\SDCC\bin\..\include"  "C:\svnwork\vdvt\applications\adcd\adcd.c" 
+C:\svnwork\vdvt\applications\adcd\adcd.c:37:20: error: system.h: No such file or directory
+C:\svnwork\vdvt\applications\adcd\adcd.c:38:16: error: pt.h: No such file or directory
+C:\svnwork\vdvt\applications\adcd\adcd.c:39:18: error: smtp.h: No such file or directory
+C:\svnwork\vdvt\applications\adcd\adcd.c:41:17: error: adc.h: No such file or directory
+C:\svnwork\vdvt\applications\adcd\adcd.c:42:24: error: parameters.h: No such file or directory
+C:\svnwork\vdvt\applications\adcd\adcd.c:43:23: error: iet_debug.h: No such file or directory
+C:\svnwork\vdvt\applications\adcd\adcd.c:44:22: error: swtimers.h: No such file or directory
+C:\svnwork\vdvt\applications\adcd\adcd.c:45:17: error: led.h: No such file or directory
+C:\svnwork\vdvt\applications\adcd\adcd.c:46:24: error: fan_heater.h: No such file or directory
+sdcpp.exe: fatal error: when writing output to : m
+
+C:\svnwork\vdvt\applications\adcd\/adcd.h:58: syntax error: token -> 'u8_t' ; column 6

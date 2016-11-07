@@ -1,0 +1,32 @@
+%!: /header.html
+<center>
+<h1>Temperaturinställningar</h1><br>
+<form><input type="hidden" name="clear" value="tempset">
+<table width="50%" class="mytab">
+<tr><td>Slå på funktionen för värmare</td><td><input type="checkbox" name="h-on" %! get-check 1
+></td></tr>
+<tr><td>Ange lägsta temperatur i växthuset</td><td><input type="text" name="min" size="4" maxlength="4" value="%! get-temp 3
+">&deg;C</td></tr>
+<tr><td>Slå på funktionen för friskluftfläkt</td><td><input type="checkbox" name="f-on" %! get-check 2
+></td></tr>
+<tr><td>Ange högsta temperatur i växthuset</td><td><input type="text" name="max" size="4" maxlength="4" value="%! get-temp 4
+">&deg;C</td></tr>
+<tr><td>Ange önskad temperaturtröskel</td><td><input type="text" name="thresh" size="4" maxlength="4" value="%! get-temp 7
+">&deg;C</td></tr>
+<tr><td colspan=3>Skicka varningsmail om:</td></tr>
+<tr><td>Temperaturen går under larmnivån</td><td><input type="checkbox" name="minen" %! get-check 3
+></td></tr>
+<tr><td>Larmnivå, lägsta tillåtna temperatur</td><td><input type="text" name="minl" size="4" maxlength="4" value="%! get-temp 5
+">&deg;C</td></tr>
+<tr><td>Temperaturen överstiger larmnivån</td><td><input type="checkbox" name="maxen" %! get-check 4
+></td></tr>
+<tr><td>Larmnivå, högsta tillåtna temperatur</td><td><input type="text" name="maxl" size="4" maxlength="4" value="%! get-temp 6
+">&deg;C</td></tr>
+</table>
+<br>
+<input type="submit" name="submit" value="Spara">
+<input type="reset" name="reset" value="Återställ">
+</form>
+<br>
+</center>
+%!: /footer.html

@@ -1,0 +1,21 @@
+%!: /header.html
+<meta http-equiv="refresh" content="5">
+<center>
+<h1>Växthuset har följande status</h1><br>
+<table width="75%" class="mytab">
+<tr><th>Mätpunkt</th><th>värde</th><th>Status</th><th>Trend</th></tr>
+<tr><td>Inomhustemperatur (Zon 1)</td><td> %! get-temp 0
+&deg;C</td><td>%! get-stat 0
+</td><td>(*)</td></tr>
+<tr><td>Inomhustemperatur (Zon 2)</td><td> %! get-temp 1
+&deg;C</td><td>%! get-stat 1
+</td><td>(*)</td></tr>
+<tr><td>Utomhustemperatur</td><td> %! get-temp 2
+&deg;C</td><td></td><td>(*)</td></tr>
+<tr><td>Driftstid värmare</td><td> %! get-int 1
+ (tim:min:sek)</td><td></td><td>(*)</td></tr>
+<tr><td>Driftstid fläkt</td><td> %! get-int 2
+ (tim:min:sek)</td><td></td><td>(*)</td></tr>
+</table><p class="body">* = Kommer i VDVT-II</p><br><br>
+</center>
+%!: /footer.html

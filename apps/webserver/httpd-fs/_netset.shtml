@@ -1,0 +1,23 @@
+%!: /header.html
+<center>
+<h1>Nätverksinställningar</h1><br>
+<form>
+<table width="50%" class="mytab">
+<tr><td>Nodens namn</td><td><input type="text" name="node" size="16" maxlength="16" value="%! get-string 4
+"></td></tr>
+<tr><td>IP Adress</td><td><input type="text" name="ip" size="15" maxlength="20" value="%! get-ip-num 1
+"></td></tr>
+<tr><td>Nätmask</td><td><input type="text" name="netmask" size="15" maxlength="20" value="%! get-ip-num 2
+"></td></tr>
+<tr><td>Standardrouter</td><td><input type="text" name="gateway" size="15" maxlength="20" value="%! get-ip-num 3
+"></td></tr>
+<tr><td>HTTP port</td><td><input type="text" name="webport" size="5" maxlength="5" value="%! get-ip-num 5
+"></td></tr>
+</table>
+<br>
+<input type="submit" name="submit" value="spara">
+<input type="reset" name="reset" value="reset">
+</form>
+<br>
+</center>
+%!: /footer.html

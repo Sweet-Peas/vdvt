@@ -1,0 +1,603 @@
+# depslib dependency file v1.0
+1292922063 source:e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\applications\adcd\adcd.c
+	"system.h"
+	"pt.h"
+	"smtp.h"
+	"adcd.h"
+	"adc.h"
+	"parameters.h"
+	"iet_debug.h"
+	"swtimers.h"
+	"led.h"
+	"fan_heater.h"
+	<stdlib.h>
+	<string.h>
+
+1292511955 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\ip_avenger\system.h
+	"uipopt.h"
+	"uip_arp.h"
+	"uip-split.h"
+	<c8051f020.h>
+	<c8051f120.h>
+
+1288819283 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\uip\uipopt.h
+	"uip-conf.h"
+
+1292239854 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\uip\uip-conf.h
+	"if_dm9000.h"
+	"fixed_addr.h"
+	"smtp.h"
+	"webserver.h"
+	"uip_app_registration.h"
+
+1288819282 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\driver\if_dm9000.h
+
+1288819280 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\ip_avenger\fixed_addr.h
+
+1288819280 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\apps\smtp\smtp.h
+	"uipopt.h"
+
+1288819280 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\apps\webserver\webserver.h
+	"httpd.h"
+
+1288819280 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\apps\webserver\httpd.h
+	"psock.h"
+	"httpd-fs.h"
+
+1292240436 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\uip\psock.h
+	"uipopt.h"
+	"pt.h"
+
+1288819283 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\uip\pt.h
+	"lc.h"
+
+1288819283 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\uip\lc.h
+	"lc-switch.h"
+
+1288819283 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\uip\lc-switch.h
+
+1288819280 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\apps\webserver\httpd-fs.h
+
+1295182345 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\ip_avenger\uip_app_registration\uip_app_registration.h
+
+1292239887 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\uip\uip_arp.h
+	"uip.h"
+
+1292240754 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\uip\uip.h
+	"uipopt.h"
+
+1288819283 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\uip\uip-split.h
+
+1292675447 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\applications\adcd\adcd.h
+
+1288819282 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\driver\adc.h
+
+1292976843 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\ip_avenger\flash\parameters.h
+	"system.h"
+
+1288819280 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\ip_avenger\iet_debug.h
+	<stdio.h>
+
+1292252479 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\driver\swtimers.h
+	"system.h"
+
+1288819282 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\driver\led.h
+
+1292076116 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\driver\fan_heater.h
+
+1292675389 source:e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\driver\fan_heater.c
+	<system.h>
+	<adcd.h>
+
+1288819280 source:e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\apps\smtp\smtp.c
+	"uip.h"
+	"psock.h"
+	"smtp.h"
+	"parameters.h"
+	"iet_debug.h"
+	"smtp-strings.h"
+	"uip_app_registration.h"
+	<string.h>
+
+1295332289 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\apps\smtp\smtp-strings.h
+
+1292076438 source:e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\apps\webserver\base64.c
+	<stdio.h>
+	<stdlib.h>
+
+1295198879 source:e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\apps\webserver\httpd-cgi.c
+	"uip.h"
+	"psock.h"
+	"httpd.h"
+	"httpd-cgi.h"
+	"httpd-fs.h"
+	"adc.h"
+	"parameters.h"
+	"adcd.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1288819280 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\apps\webserver\httpd-cgi.h
+	"psock.h"
+	"httpd.h"
+
+1288819280 source:e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\apps\webserver\httpd-fs.c
+	"httpd.h"
+	"httpd-fs.h"
+	"httpd-fsdata.h"
+	"httpd-fsdata.c"
+
+1288819280 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\apps\webserver\httpd-fsdata.h
+	"uip.h"
+
+1295332289 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\apps\webserver\httpd-fsdata.c
+
+1293060242 source:e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\apps\webserver\httpd-param.c
+	"system.h"
+	"uip.h"
+	"httpd-param.h"
+	"parameters.h"
+	"Flash_02x.h"
+	"iet_debug.h"
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+
+1292243324 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\apps\webserver\httpd-param.h
+
+1288819280 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\ip_avenger\flash\flash_02x.h
+	"system.h"
+
+1288819280 source:e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\apps\webserver\httpd.c
+	"uip.h"
+	"httpd.h"
+	"httpd-fs.h"
+	"httpd-cgi.h"
+	"iet_debug.h"
+	"parameters.h"
+	"httpd-param.h"
+	"http-strings.h"
+	"uip_app_registration.h"
+	<string.h>
+	<stdio.h>
+	<ctype.h>
+	<stdlib.h>
+
+1295332289 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\apps\webserver\http-strings.h
+
+1292172734 source:e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\driver\adc.c
+	<stdio.h>
+	<system.h>
+	<string.h>
+	"adc.h"
+	"iet_debug.h"
+
+1288819282 source:e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\driver\dm9000.c
+	<stdio.h>
+	<string.h>
+	"dm9000.h"
+
+1288819282 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\driver\dm9000.h
+	"system.h"
+	"uip.h"
+	"uip_arp.h"
+	"uipopt.h"
+
+1292263208 source:e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\driver\led.c
+	"dm9000.h"
+	"pt.h"
+	"led.h"
+	"swtimers.h"
+	"iet_debug.h"
+	<string.h>
+
+1292411365 source:e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\driver\swtimers.c
+	"system.h"
+	"swtimers.h"
+	"iet_debug.h"
+
+1292509402 source:e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\ip_avenger\cuart.c
+	"system.h"
+	"iet_debug.h"
+	"uip.h"
+	"CUart.h"
+	"dm9000.h"
+
+1292503094 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\ip_avenger\cuart.h
+
+1288819280 source:e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\ip_avenger\clock-arch.c
+	"clock-arch.h"
+
+1288819280 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\ip_avenger\clock-arch.h
+
+1292943206 source:e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\ip_avenger\config.c
+	<string.h>
+	<stdio.h>
+	"system.h"
+	"uip.h"
+	"uip_arp.h"
+	"iet_debug.h"
+
+1288819280 source:e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\ip_avenger\flash\flash_02x.c
+	"Flash_02x.h"
+	"parameters.h"
+	"system.h"
+	"iet_debug.h"
+	"util.h"
+
+1288819279 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\ip_avenger\utils\util.h
+	"Uipopt.h"
+
+1292976922 source:e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\ip_avenger\flash\parameters.c
+	<string.h>
+	<stdlib.h>
+	"flash_02x.h"
+	"parameters.h"
+	"iet_debug.h"
+
+1295180968 source:e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\ip_avenger\main.c
+	"system.h"
+	"main.h"
+	"parameters.h"
+	"swtimers.h"
+	"adc.h"
+	"adcd.h"
+	"led.h"
+	"iet_debug.h"
+
+1288819280 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\ip_avenger\main.h
+	<stdlib.h>
+	<stdio.h>
+	"DM9000.h"
+	"CUart.h"
+
+1295182353 source:e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\ip_avenger\uip_app_registration\uip_app_registration.c
+	"system.h"
+	"uipopt.h"
+	"uip_app_registration.h"
+
+1292240523 source:e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\uip\psock.c
+	<stdio.h>
+	<string.h>
+	"uipopt.h"
+	"psock.h"
+	"uip.h"
+
+1292240364 source:e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\uip\timer.c
+	"clock.h"
+	"timer.h"
+
+1288819283 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\uip\clock.h
+	"clock-arch.h"
+
+1288819280 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\unix\clock-arch.h
+
+1292240348 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\uip\timer.h
+	"clock.h"
+
+1295182083 source:e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\uip\uip.c
+	"uip.h"
+	"uipopt.h"
+	"uip_arch.h"
+	"uip-neighbor.h"
+	<string.h>
+	<stdio.h>
+
+1292240002 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\uip\uip_arch.h
+	"uip.h"
+
+1288819283 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\uip\uip-neighbor.h
+	"uip.h"
+
+1292239984 source:e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\uip\uip_arp.c
+	"uip_arp.h"
+	<string.h>
+
+1292239800 source:e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\uip\uiplib.c
+	"uip.h"
+	"uiplib.h"
+
+1292239778 e:\documents and settings\pontus\my documents\svnwork\dev_branch--vdvt\uip\uiplib.h
+
+1292922063 source:c:\svnwork\vdvt\applications\adcd\adcd.c
+	"system.h"
+	"pt.h"
+	"smtp.h"
+	"adcd.h"
+	"adc.h"
+	"parameters.h"
+	"iet_debug.h"
+	"swtimers.h"
+	"led.h"
+	"fan_heater.h"
+	<stdlib.h>
+	<string.h>
+
+1292511955 c:\svnwork\vdvt\ip_avenger\system.h
+	"uipopt.h"
+	"uip_arp.h"
+	"uip-split.h"
+	<c8051f020.h>
+	<c8051f120.h>
+
+1288819283 c:\svnwork\vdvt\uip\uipopt.h
+	"uip-conf.h"
+
+1292239854 c:\svnwork\vdvt\uip\uip-conf.h
+	"if_dm9000.h"
+	"fixed_addr.h"
+	"smtp.h"
+	"webserver.h"
+	"uip_app_registration.h"
+
+1288819282 c:\svnwork\vdvt\driver\if_dm9000.h
+
+1288819280 c:\svnwork\vdvt\ip_avenger\fixed_addr.h
+
+1288819280 c:\svnwork\vdvt\apps\smtp\smtp.h
+	"uipopt.h"
+
+1288819280 c:\svnwork\vdvt\apps\webserver\webserver.h
+	"httpd.h"
+
+1288819280 c:\svnwork\vdvt\apps\webserver\httpd.h
+	"psock.h"
+	"httpd-fs.h"
+
+1292240436 c:\svnwork\vdvt\uip\psock.h
+	"uipopt.h"
+	"pt.h"
+
+1288819283 c:\svnwork\vdvt\uip\pt.h
+	"lc.h"
+
+1288819283 c:\svnwork\vdvt\uip\lc.h
+	"lc-switch.h"
+
+1288819283 c:\svnwork\vdvt\uip\lc-switch.h
+
+1288819280 c:\svnwork\vdvt\apps\webserver\httpd-fs.h
+
+1295182345 c:\svnwork\vdvt\ip_avenger\uip_app_registration\uip_app_registration.h
+
+1292239887 c:\svnwork\vdvt\uip\uip_arp.h
+	"uip.h"
+
+1292240754 c:\svnwork\vdvt\uip\uip.h
+	"uipopt.h"
+
+1288819283 c:\svnwork\vdvt\uip\uip-split.h
+
+1292675447 c:\svnwork\vdvt\applications\adcd\adcd.h
+
+1288819282 c:\svnwork\vdvt\driver\adc.h
+
+1292976843 c:\svnwork\vdvt\ip_avenger\flash\parameters.h
+	"system.h"
+
+1288819280 c:\svnwork\vdvt\ip_avenger\iet_debug.h
+	<stdio.h>
+
+1292252479 c:\svnwork\vdvt\driver\swtimers.h
+	"system.h"
+
+1288819282 c:\svnwork\vdvt\driver\led.h
+
+1292076116 c:\svnwork\vdvt\driver\fan_heater.h
+
+1288819280 source:c:\svnwork\vdvt\apps\smtp\smtp.c
+	"uip.h"
+	"psock.h"
+	"smtp.h"
+	"parameters.h"
+	"iet_debug.h"
+	"smtp-strings.h"
+	"uip_app_registration.h"
+	<string.h>
+
+1478465932 c:\svnwork\vdvt\apps\smtp\smtp-strings.h
+
+1292076438 source:c:\svnwork\vdvt\apps\webserver\base64.c
+	<stdio.h>
+	<stdlib.h>
+
+1295198879 source:c:\svnwork\vdvt\apps\webserver\httpd-cgi.c
+	"uip.h"
+	"psock.h"
+	"httpd.h"
+	"httpd-cgi.h"
+	"httpd-fs.h"
+	"adc.h"
+	"parameters.h"
+	"adcd.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1288819280 c:\svnwork\vdvt\apps\webserver\httpd-cgi.h
+	"psock.h"
+	"httpd.h"
+
+1288819280 source:c:\svnwork\vdvt\apps\webserver\httpd-fs.c
+	"httpd.h"
+	"httpd-fs.h"
+	"httpd-fsdata.h"
+	"httpd-fsdata.c"
+
+1288819280 c:\svnwork\vdvt\apps\webserver\httpd-fsdata.h
+	"uip.h"
+
+1478465932 c:\svnwork\vdvt\apps\webserver\httpd-fsdata.c
+
+1293060242 source:c:\svnwork\vdvt\apps\webserver\httpd-param.c
+	"system.h"
+	"uip.h"
+	"httpd-param.h"
+	"parameters.h"
+	"Flash_02x.h"
+	"iet_debug.h"
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+
+1292243324 c:\svnwork\vdvt\apps\webserver\httpd-param.h
+
+1288819280 c:\svnwork\vdvt\ip_avenger\flash\flash_02x.h
+	"system.h"
+
+1288819280 source:c:\svnwork\vdvt\apps\webserver\httpd.c
+	"uip.h"
+	"httpd.h"
+	"httpd-fs.h"
+	"httpd-cgi.h"
+	"iet_debug.h"
+	"parameters.h"
+	"httpd-param.h"
+	"http-strings.h"
+	"uip_app_registration.h"
+	<string.h>
+	<stdio.h>
+	<ctype.h>
+	<stdlib.h>
+
+1478465932 c:\svnwork\vdvt\apps\webserver\http-strings.h
+
+1292172734 source:c:\svnwork\vdvt\driver\adc.c
+	<stdio.h>
+	<system.h>
+	<string.h>
+	"adc.h"
+	"iet_debug.h"
+
+1288819282 source:c:\svnwork\vdvt\driver\dm9000.c
+	<stdio.h>
+	<string.h>
+	"dm9000.h"
+
+1288819282 c:\svnwork\vdvt\driver\dm9000.h
+	"system.h"
+	"uip.h"
+	"uip_arp.h"
+	"uipopt.h"
+
+1292675389 source:c:\svnwork\vdvt\driver\fan_heater.c
+	<system.h>
+	<adcd.h>
+
+1292263208 source:c:\svnwork\vdvt\driver\led.c
+	"dm9000.h"
+	"pt.h"
+	"led.h"
+	"swtimers.h"
+	"iet_debug.h"
+	<string.h>
+
+1292411365 source:c:\svnwork\vdvt\driver\swtimers.c
+	"system.h"
+	"swtimers.h"
+	"iet_debug.h"
+
+1292509402 source:c:\svnwork\vdvt\ip_avenger\cuart.c
+	"system.h"
+	"iet_debug.h"
+	"uip.h"
+	"CUart.h"
+	"dm9000.h"
+
+1292503094 c:\svnwork\vdvt\ip_avenger\cuart.h
+
+1288819280 source:c:\svnwork\vdvt\ip_avenger\clock-arch.c
+	"clock-arch.h"
+
+1288819280 c:\svnwork\vdvt\ip_avenger\clock-arch.h
+
+1292943206 source:c:\svnwork\vdvt\ip_avenger\config.c
+	<string.h>
+	<stdio.h>
+	"system.h"
+	"uip.h"
+	"uip_arp.h"
+	"iet_debug.h"
+
+1288819280 source:c:\svnwork\vdvt\ip_avenger\flash\flash_02x.c
+	"Flash_02x.h"
+	"parameters.h"
+	"system.h"
+	"iet_debug.h"
+	"util.h"
+
+1288819279 c:\svnwork\vdvt\ip_avenger\utils\util.h
+	"Uipopt.h"
+
+1295332286 source:c:\svnwork\vdvt\ip_avenger\flash\parameters.c
+	<string.h>
+	<stdlib.h>
+	"flash_02x.h"
+	"parameters.h"
+	"iet_debug.h"
+
+1295180968 source:c:\svnwork\vdvt\ip_avenger\main.c
+	"system.h"
+	"main.h"
+	"parameters.h"
+	"swtimers.h"
+	"adc.h"
+	"adcd.h"
+	"led.h"
+	"iet_debug.h"
+
+1288819280 c:\svnwork\vdvt\ip_avenger\main.h
+	<stdlib.h>
+	<stdio.h>
+	"DM9000.h"
+	"CUart.h"
+
+1295182353 source:c:\svnwork\vdvt\ip_avenger\uip_app_registration\uip_app_registration.c
+	"system.h"
+	"uipopt.h"
+	"uip_app_registration.h"
+
+1292240523 source:c:\svnwork\vdvt\uip\psock.c
+	<stdio.h>
+	<string.h>
+	"uipopt.h"
+	"psock.h"
+	"uip.h"
+
+1292240364 source:c:\svnwork\vdvt\uip\timer.c
+	"clock.h"
+	"timer.h"
+
+1288819283 c:\svnwork\vdvt\uip\clock.h
+	"clock-arch.h"
+
+1288819280 c:\svnwork\vdvt\unix\clock-arch.h
+
+1292240348 c:\svnwork\vdvt\uip\timer.h
+	"clock.h"
+
+1295182083 source:c:\svnwork\vdvt\uip\uip.c
+	"uip.h"
+	"uipopt.h"
+	"uip_arch.h"
+	"uip-neighbor.h"
+	<string.h>
+	<stdio.h>
+
+1292240002 c:\svnwork\vdvt\uip\uip_arch.h
+	"uip.h"
+
+1288819283 c:\svnwork\vdvt\uip\uip-neighbor.h
+	"uip.h"
+
+1292239984 source:c:\svnwork\vdvt\uip\uip_arp.c
+	"uip_arp.h"
+	<string.h>
+
+1292239800 source:c:\svnwork\vdvt\uip\uiplib.c
+	"uip.h"
+	"uiplib.h"
+
+1292239778 c:\svnwork\vdvt\uip\uiplib.h
+

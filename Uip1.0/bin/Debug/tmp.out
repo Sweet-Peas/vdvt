@@ -1,0 +1,3 @@
+C:\svnwork\vdvt\applications\adcd\adcd.rel: cannot open.
++ C:\PROGRA~1\SDCC\bin\aslink.exe -nf "C:\svnwork\vdvt\Uip1.0\bin\Debug\Uip1.lnk"
++ C:\PROGRA~1\SDCC\bin\aslink.exe -nf "C:\svnwork\vdvt\Uip1.0\bin\Debug\Uip1.lnk" returned errorcode 1

@@ -1,0 +1,904 @@
+;--------------------------------------------------------
+; File Created by SDCC : free open source ANSI-C Compiler
+; Version 2.8.0 #5117 (Mar 23 2008) (MINGW32)
+; This file was generated Sun Nov 06 21:58:53 2016
+;--------------------------------------------------------
+	.module http_strings
+	.optsdcc -mmcs51 --model-large
+	
+;--------------------------------------------------------
+; Public variables in this module
+;--------------------------------------------------------
+	.globl _http_txt
+	.globl _http_text
+	.globl _http_jpg
+	.globl _http_gif
+	.globl _http_png
+	.globl _http_css
+	.globl _http_htm
+	.globl _http_shtml
+	.globl _http_html
+	.globl _http_content_type_binary
+	.globl _http_content_type_jpg
+	.globl _http_content_type_gif
+	.globl _http_content_type_png
+	.globl _http_content_type_text
+	.globl _http_content_type_css
+	.globl _http_content_type_html
+	.globl _http_content_type_plain
+	.globl _http_header_404
+	.globl _http_header_401
+	.globl _http_header_200
+	.globl _http_content_length
+	.globl _http_referer
+	.globl _http_401_html
+	.globl _http_404_html
+	.globl _http_index_html
+	.globl _http_crnl
+	.globl _http_host
+	.globl _http_location
+	.globl _http_texthtml
+	.globl _http_authorization
+	.globl _http_content_type
+	.globl _http_11
+	.globl _http_10
+	.globl _http_get
+	.globl _http_302
+	.globl _http_301
+	.globl _http_200
+	.globl _http_http
+;--------------------------------------------------------
+; special function registers
+;--------------------------------------------------------
+	.area RSEG    (DATA)
+;--------------------------------------------------------
+; special function bits
+;--------------------------------------------------------
+	.area RSEG    (DATA)
+;--------------------------------------------------------
+; overlayable register banks
+;--------------------------------------------------------
+	.area REG_BANK_0	(REL,OVR,DATA)
+	.ds 8
+;--------------------------------------------------------
+; internal ram data
+;--------------------------------------------------------
+	.area DSEG    (DATA)
+;--------------------------------------------------------
+; overlayable items in internal ram 
+;--------------------------------------------------------
+	.area OSEG    (OVR,DATA)
+;--------------------------------------------------------
+; indirectly addressable internal ram data
+;--------------------------------------------------------
+	.area ISEG    (DATA)
+;--------------------------------------------------------
+; absolute internal ram data
+;--------------------------------------------------------
+	.area IABS    (ABS,DATA)
+	.area IABS    (ABS,DATA)
+;--------------------------------------------------------
+; bit data
+;--------------------------------------------------------
+	.area BSEG    (BIT)
+;--------------------------------------------------------
+; paged external ram data
+;--------------------------------------------------------
+	.area PSEG    (PAG,XDATA)
+;--------------------------------------------------------
+; external ram data
+;--------------------------------------------------------
+	.area XSEG    (XDATA)
+;--------------------------------------------------------
+; absolute external ram data
+;--------------------------------------------------------
+	.area XABS    (ABS,XDATA)
+;--------------------------------------------------------
+; external initialized ram data
+;--------------------------------------------------------
+	.area XISEG   (XDATA)
+	.area HOME    (CODE)
+	.area GSINIT0 (CODE)
+	.area GSINIT1 (CODE)
+	.area GSINIT2 (CODE)
+	.area GSINIT3 (CODE)
+	.area GSINIT4 (CODE)
+	.area GSINIT5 (CODE)
+	.area GSINIT  (CODE)
+	.area GSFINAL (CODE)
+	.area CSEG    (CODE)
+;--------------------------------------------------------
+; global & static initialisations
+;--------------------------------------------------------
+	.area HOME    (CODE)
+	.area GSINIT  (CODE)
+	.area GSFINAL (CODE)
+	.area GSINIT  (CODE)
+;--------------------------------------------------------
+; Home
+;--------------------------------------------------------
+	.area HOME    (CODE)
+	.area HOME    (CODE)
+;--------------------------------------------------------
+; code
+;--------------------------------------------------------
+	.area CSEG    (CODE)
+	.area CSEG    (CODE)
+	.area CONST   (CODE)
+G$http_http$0$0 == .
+_http_http:
+	.db #0x68
+	.db #0x74
+	.db #0x74
+	.db #0x70
+	.db #0x3A
+	.db #0x2F
+	.db #0x2F
+	.db 0x00
+G$http_200$0$0 == .
+_http_200:
+	.db #0x32
+	.db #0x30
+	.db #0x30
+	.db #0x20
+	.db 0x00
+G$http_301$0$0 == .
+_http_301:
+	.db #0x33
+	.db #0x30
+	.db #0x31
+	.db #0x20
+	.db 0x00
+G$http_302$0$0 == .
+_http_302:
+	.db #0x33
+	.db #0x30
+	.db #0x32
+	.db #0x20
+	.db 0x00
+G$http_get$0$0 == .
+_http_get:
+	.db #0x47
+	.db #0x45
+	.db #0x54
+	.db #0x20
+	.db 0x00
+G$http_10$0$0 == .
+_http_10:
+	.db #0x48
+	.db #0x54
+	.db #0x54
+	.db #0x50
+	.db #0x2F
+	.db #0x31
+	.db #0x2E
+	.db #0x30
+	.db 0x00
+G$http_11$0$0 == .
+_http_11:
+	.db #0x48
+	.db #0x54
+	.db #0x54
+	.db #0x50
+	.db #0x2F
+	.db #0x31
+	.db #0x2E
+	.db #0x31
+	.db 0x00
+G$http_content_type$0$0 == .
+_http_content_type:
+	.db #0x63
+	.db #0x6F
+	.db #0x6E
+	.db #0x74
+	.db #0x65
+	.db #0x6E
+	.db #0x74
+	.db #0x2D
+	.db #0x74
+	.db #0x79
+	.db #0x70
+	.db #0x65
+	.db #0x3A
+	.db #0x20
+	.db 0x00
+G$http_authorization$0$0 == .
+_http_authorization:
+	.db #0x41
+	.db #0x75
+	.db #0x74
+	.db #0x68
+	.db #0x6F
+	.db #0x72
+	.db #0x69
+	.db #0x7A
+	.db #0x61
+	.db #0x74
+	.db #0x69
+	.db #0x6F
+	.db #0x6E
+	.db #0x3A
+	.db #0x20
+	.db #0x42
+	.db #0x61
+	.db #0x73
+	.db #0x69
+	.db #0x63
+	.db #0x20
+	.db 0x00
+G$http_texthtml$0$0 == .
+_http_texthtml:
+	.db #0x74
+	.db #0x65
+	.db #0x78
+	.db #0x74
+	.db #0x2F
+	.db #0x68
+	.db #0x74
+	.db #0x6D
+	.db #0x6C
+	.db 0x00
+G$http_location$0$0 == .
+_http_location:
+	.db #0x6C
+	.db #0x6F
+	.db #0x63
+	.db #0x61
+	.db #0x74
+	.db #0x69
+	.db #0x6F
+	.db #0x6E
+	.db #0x3A
+	.db #0x20
+	.db 0x00
+G$http_host$0$0 == .
+_http_host:
+	.db #0x68
+	.db #0x6F
+	.db #0x73
+	.db #0x74
+	.db #0x3A
+	.db #0x20
+	.db 0x00
+G$http_crnl$0$0 == .
+_http_crnl:
+	.db #0x0D
+	.db #0x0A
+	.db 0x00
+G$http_index_html$0$0 == .
+_http_index_html:
+	.db #0x2F
+	.db #0x69
+	.db #0x6E
+	.db #0x64
+	.db #0x65
+	.db #0x78
+	.db #0x2E
+	.db #0x73
+	.db #0x68
+	.db #0x74
+	.db #0x6D
+	.db #0x6C
+	.db 0x00
+G$http_404_html$0$0 == .
+_http_404_html:
+	.db #0x2F
+	.db #0x34
+	.db #0x30
+	.db #0x34
+	.db #0x2E
+	.db #0x68
+	.db #0x74
+	.db #0x6D
+	.db #0x6C
+	.db 0x00
+G$http_401_html$0$0 == .
+_http_401_html:
+	.db #0x2F
+	.db #0x34
+	.db #0x30
+	.db #0x31
+	.db #0x2E
+	.db #0x68
+	.db #0x74
+	.db #0x6D
+	.db #0x6C
+	.db 0x00
+G$http_referer$0$0 == .
+_http_referer:
+	.db #0x52
+	.db #0x65
+	.db #0x66
+	.db #0x65
+	.db #0x72
+	.db #0x65
+	.db #0x72
+	.db #0x3A
+	.db 0x00
+G$http_content_length$0$0 == .
+_http_content_length:
+	.db #0x43
+	.db #0x6F
+	.db #0x6E
+	.db #0x74
+	.db #0x65
+	.db #0x6E
+	.db #0x74
+	.db #0x2D
+	.db #0x4C
+	.db #0x65
+	.db #0x6E
+	.db #0x67
+	.db #0x74
+	.db #0x68
+	.db #0x3A
+	.db 0x00
+G$http_header_200$0$0 == .
+_http_header_200:
+	.db #0x48
+	.db #0x54
+	.db #0x54
+	.db #0x50
+	.db #0x2F
+	.db #0x31
+	.db #0x2E
+	.db #0x30
+	.db #0x20
+	.db #0x32
+	.db #0x30
+	.db #0x30
+	.db #0x20
+	.db #0x4F
+	.db #0x4B
+	.db #0x0D
+	.db #0x0A
+	.db #0x53
+	.db #0x65
+	.db #0x72
+	.db #0x76
+	.db #0x65
+	.db #0x72
+	.db #0x3A
+	.db #0x20
+	.db #0x75
+	.db #0x49
+	.db #0x50
+	.db #0x2F
+	.db #0x31
+	.db #0x2E
+	.db #0x30
+	.db #0x20
+	.db #0x68
+	.db #0x74
+	.db #0x74
+	.db #0x70
+	.db #0x3A
+	.db #0x2F
+	.db #0x2F
+	.db #0x77
+	.db #0x77
+	.db #0x77
+	.db #0x2E
+	.db #0x73
+	.db #0x69
+	.db #0x63
+	.db #0x73
+	.db #0x2E
+	.db #0x73
+	.db #0x65
+	.db #0x2F
+	.db #0x7E
+	.db #0x61
+	.db #0x64
+	.db #0x61
+	.db #0x6D
+	.db #0x2F
+	.db #0x75
+	.db #0x69
+	.db #0x70
+	.db #0x2F
+	.db #0x0D
+	.db #0x0A
+	.db #0x43
+	.db #0x6F
+	.db #0x6E
+	.db #0x6E
+	.db #0x65
+	.db #0x63
+	.db #0x74
+	.db #0x69
+	.db #0x6F
+	.db #0x6E
+	.db #0x3A
+	.db #0x20
+	.db #0x63
+	.db #0x6C
+	.db #0x6F
+	.db #0x73
+	.db #0x65
+	.db #0x0D
+	.db #0x0A
+	.db 0x00
+G$http_header_401$0$0 == .
+_http_header_401:
+	.db #0x48
+	.db #0x54
+	.db #0x54
+	.db #0x50
+	.db #0x2F
+	.db #0x31
+	.db #0x2E
+	.db #0x30
+	.db #0x20
+	.db #0x34
+	.db #0x30
+	.db #0x31
+	.db #0x20
+	.db #0x55
+	.db #0x4E
+	.db #0x41
+	.db #0x55
+	.db #0x54
+	.db #0x48
+	.db #0x4F
+	.db #0x52
+	.db #0x49
+	.db #0x5A
+	.db #0x45
+	.db #0x44
+	.db #0x0D
+	.db #0x0A
+	.db #0x57
+	.db #0x57
+	.db #0x57
+	.db #0x2D
+	.db #0x41
+	.db #0x75
+	.db #0x74
+	.db #0x68
+	.db #0x65
+	.db #0x6E
+	.db #0x74
+	.db #0x69
+	.db #0x63
+	.db #0x61
+	.db #0x74
+	.db #0x65
+	.db #0x3A
+	.db #0x20
+	.db #0x42
+	.db #0x61
+	.db #0x73
+	.db #0x69
+	.db #0x63
+	.db #0x20
+	.db #0x72
+	.db #0x65
+	.db #0x61
+	.db #0x6C
+	.db #0x6D
+	.db #0x3D
+	.db #0x56
+	.db #0x44
+	.db #0x56
+	.db #0x54
+	.db #0x0D
+	.db #0x0A
+	.db 0x00
+G$http_header_404$0$0 == .
+_http_header_404:
+	.db #0x48
+	.db #0x54
+	.db #0x54
+	.db #0x50
+	.db #0x2F
+	.db #0x31
+	.db #0x2E
+	.db #0x30
+	.db #0x20
+	.db #0x34
+	.db #0x30
+	.db #0x34
+	.db #0x20
+	.db #0x4E
+	.db #0x6F
+	.db #0x74
+	.db #0x20
+	.db #0x66
+	.db #0x6F
+	.db #0x75
+	.db #0x6E
+	.db #0x64
+	.db #0x0D
+	.db #0x0A
+	.db #0x53
+	.db #0x65
+	.db #0x72
+	.db #0x76
+	.db #0x65
+	.db #0x72
+	.db #0x3A
+	.db #0x20
+	.db #0x75
+	.db #0x49
+	.db #0x50
+	.db #0x2F
+	.db #0x31
+	.db #0x2E
+	.db #0x30
+	.db #0x20
+	.db #0x68
+	.db #0x74
+	.db #0x74
+	.db #0x70
+	.db #0x3A
+	.db #0x2F
+	.db #0x2F
+	.db #0x77
+	.db #0x77
+	.db #0x77
+	.db #0x2E
+	.db #0x73
+	.db #0x69
+	.db #0x63
+	.db #0x73
+	.db #0x2E
+	.db #0x73
+	.db #0x65
+	.db #0x2F
+	.db #0x7E
+	.db #0x61
+	.db #0x64
+	.db #0x61
+	.db #0x6D
+	.db #0x2F
+	.db #0x75
+	.db #0x69
+	.db #0x70
+	.db #0x2F
+	.db #0x0D
+	.db #0x0A
+	.db #0x43
+	.db #0x6F
+	.db #0x6E
+	.db #0x6E
+	.db #0x65
+	.db #0x63
+	.db #0x74
+	.db #0x69
+	.db #0x6F
+	.db #0x6E
+	.db #0x3A
+	.db #0x20
+	.db #0x63
+	.db #0x6C
+	.db #0x6F
+	.db #0x73
+	.db #0x65
+	.db #0x0D
+	.db #0x0A
+	.db 0x00
+G$http_content_type_plain$0$0 == .
+_http_content_type_plain:
+	.db #0x43
+	.db #0x6F
+	.db #0x6E
+	.db #0x74
+	.db #0x65
+	.db #0x6E
+	.db #0x74
+	.db #0x2D
+	.db #0x74
+	.db #0x79
+	.db #0x70
+	.db #0x65
+	.db #0x3A
+	.db #0x20
+	.db #0x74
+	.db #0x65
+	.db #0x78
+	.db #0x74
+	.db #0x2F
+	.db #0x70
+	.db #0x6C
+	.db #0x61
+	.db #0x69
+	.db #0x6E
+	.db #0x0D
+	.db #0x0A
+	.db #0x0D
+	.db #0x0A
+	.db 0x00
+G$http_content_type_html$0$0 == .
+_http_content_type_html:
+	.db #0x43
+	.db #0x6F
+	.db #0x6E
+	.db #0x74
+	.db #0x65
+	.db #0x6E
+	.db #0x74
+	.db #0x2D
+	.db #0x74
+	.db #0x79
+	.db #0x70
+	.db #0x65
+	.db #0x3A
+	.db #0x20
+	.db #0x74
+	.db #0x65
+	.db #0x78
+	.db #0x74
+	.db #0x2F
+	.db #0x68
+	.db #0x74
+	.db #0x6D
+	.db #0x6C
+	.db #0x0D
+	.db #0x0A
+	.db #0x0D
+	.db #0x0A
+	.db 0x00
+G$http_content_type_css$0$0 == .
+_http_content_type_css:
+	.db #0x43
+	.db #0x6F
+	.db #0x6E
+	.db #0x74
+	.db #0x65
+	.db #0x6E
+	.db #0x74
+	.db #0x2D
+	.db #0x74
+	.db #0x79
+	.db #0x70
+	.db #0x65
+	.db #0x3A
+	.db #0x20
+	.db #0x74
+	.db #0x65
+	.db #0x78
+	.db #0x74
+	.db #0x2F
+	.db #0x63
+	.db #0x73
+	.db #0x73
+	.db #0x0D
+	.db #0x0A
+	.db #0x0D
+	.db #0x0A
+	.db 0x00
+G$http_content_type_text$0$0 == .
+_http_content_type_text:
+	.db #0x43
+	.db #0x6F
+	.db #0x6E
+	.db #0x74
+	.db #0x65
+	.db #0x6E
+	.db #0x74
+	.db #0x2D
+	.db #0x74
+	.db #0x79
+	.db #0x70
+	.db #0x65
+	.db #0x3A
+	.db #0x20
+	.db #0x74
+	.db #0x65
+	.db #0x78
+	.db #0x74
+	.db #0x2F
+	.db #0x74
+	.db #0x65
+	.db #0x78
+	.db #0x74
+	.db #0x0D
+	.db #0x0A
+	.db #0x0D
+	.db #0x0A
+	.db 0x00
+G$http_content_type_png$0$0 == .
+_http_content_type_png:
+	.db #0x43
+	.db #0x6F
+	.db #0x6E
+	.db #0x74
+	.db #0x65
+	.db #0x6E
+	.db #0x74
+	.db #0x2D
+	.db #0x74
+	.db #0x79
+	.db #0x70
+	.db #0x65
+	.db #0x3A
+	.db #0x20
+	.db #0x69
+	.db #0x6D
+	.db #0x61
+	.db #0x67
+	.db #0x65
+	.db #0x2F
+	.db #0x70
+	.db #0x6E
+	.db #0x67
+	.db #0x0D
+	.db #0x0A
+	.db #0x0D
+	.db #0x0A
+	.db 0x00
+G$http_content_type_gif$0$0 == .
+_http_content_type_gif:
+	.db #0x43
+	.db #0x6F
+	.db #0x6E
+	.db #0x74
+	.db #0x65
+	.db #0x6E
+	.db #0x74
+	.db #0x2D
+	.db #0x74
+	.db #0x79
+	.db #0x70
+	.db #0x65
+	.db #0x3A
+	.db #0x20
+	.db #0x69
+	.db #0x6D
+	.db #0x61
+	.db #0x67
+	.db #0x65
+	.db #0x2F
+	.db #0x67
+	.db #0x69
+	.db #0x66
+	.db #0x0D
+	.db #0x0A
+	.db #0x0D
+	.db #0x0A
+	.db 0x00
+G$http_content_type_jpg$0$0 == .
+_http_content_type_jpg:
+	.db #0x43
+	.db #0x6F
+	.db #0x6E
+	.db #0x74
+	.db #0x65
+	.db #0x6E
+	.db #0x74
+	.db #0x2D
+	.db #0x74
+	.db #0x79
+	.db #0x70
+	.db #0x65
+	.db #0x3A
+	.db #0x20
+	.db #0x69
+	.db #0x6D
+	.db #0x61
+	.db #0x67
+	.db #0x65
+	.db #0x2F
+	.db #0x6A
+	.db #0x70
+	.db #0x65
+	.db #0x67
+	.db #0x0D
+	.db #0x0A
+	.db #0x0D
+	.db #0x0A
+	.db 0x00
+G$http_content_type_binary$0$0 == .
+_http_content_type_binary:
+	.db #0x43
+	.db #0x6F
+	.db #0x6E
+	.db #0x74
+	.db #0x65
+	.db #0x6E
+	.db #0x74
+	.db #0x2D
+	.db #0x74
+	.db #0x79
+	.db #0x70
+	.db #0x65
+	.db #0x3A
+	.db #0x20
+	.db #0x61
+	.db #0x70
+	.db #0x70
+	.db #0x6C
+	.db #0x69
+	.db #0x63
+	.db #0x61
+	.db #0x74
+	.db #0x69
+	.db #0x6F
+	.db #0x6E
+	.db #0x2F
+	.db #0x6F
+	.db #0x63
+	.db #0x74
+	.db #0x65
+	.db #0x74
+	.db #0x2D
+	.db #0x73
+	.db #0x74
+	.db #0x72
+	.db #0x65
+	.db #0x61
+	.db #0x6D
+	.db #0x0D
+	.db #0x0A
+	.db #0x0D
+	.db #0x0A
+	.db 0x00
+G$http_html$0$0 == .
+_http_html:
+	.db #0x2E
+	.db #0x68
+	.db #0x74
+	.db #0x6D
+	.db #0x6C
+	.db 0x00
+G$http_shtml$0$0 == .
+_http_shtml:
+	.db #0x2E
+	.db #0x73
+	.db #0x68
+	.db #0x74
+	.db #0x6D
+	.db #0x6C
+	.db 0x00
+G$http_htm$0$0 == .
+_http_htm:
+	.db #0x2E
+	.db #0x68
+	.db #0x74
+	.db #0x6D
+	.db 0x00
+G$http_css$0$0 == .
+_http_css:
+	.db #0x2E
+	.db #0x63
+	.db #0x73
+	.db #0x73
+	.db 0x00
+G$http_png$0$0 == .
+_http_png:
+	.db #0x2E
+	.db #0x70
+	.db #0x6E
+	.db #0x67
+	.db 0x00
+G$http_gif$0$0 == .
+_http_gif:
+	.db #0x2E
+	.db #0x67
+	.db #0x69
+	.db #0x66
+	.db 0x00
+G$http_jpg$0$0 == .
+_http_jpg:
+	.db #0x2E
+	.db #0x6A
+	.db #0x70
+	.db #0x67
+	.db 0x00
+G$http_text$0$0 == .
+_http_text:
+	.db #0x2E
+	.db #0x74
+	.db #0x78
+	.db #0x74
+	.db 0x00
+G$http_txt$0$0 == .
+_http_txt:
+	.db #0x2E
+	.db #0x74
+	.db #0x78
+	.db #0x74
+	.db 0x00
+	.area XINIT   (CODE)
+	.area CABS    (ABS,CODE)

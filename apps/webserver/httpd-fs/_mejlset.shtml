@@ -1,0 +1,20 @@
+%!: /header.html
+<center><h1>Mejlinställningar</h1><br><form>
+<table width="50%" class="mytab"><input type="hidden" name="clear" value="mejlset">
+<tr><td>Mejlserver</td><td><input type="text" name="smtp" size="15" maxlength="20" value="%! get-ip-num 4
+"></td></tr>
+<tr><td>Mejlserver Port</td><td><input type="text" name="port" size="5" maxlength="5" value="%! get-port
+"></td></tr>
+<tr><td>Använd autentisering</td><td><input type="checkbox" name="auth" %! get-check 0
+></td></tr>
+<tr><td>User Name</td><td><input type="text" name="uname" size="20" maxlength="30" value="%! get-string 1
+"></td></tr>
+<tr><td>Password</td><td><input type="password" name="pword" size="10" maxlength="10" value="%! get-string 2
+"></td></tr>
+<tr><td>Mejladress</td><td><input type="text" name="email" size="20" maxlength="30" value="%! get-string 3
+"></td></tr>
+<tr><td>Skicka ett testmejl</td><td><input type="checkbox" name="testmejl"></td></tr>
+</table><br><input type="submit" name="submit" value="spara">
+<input type="reset" name="reset" value="reset">
+</form><br></center>
+%!: /footer.html

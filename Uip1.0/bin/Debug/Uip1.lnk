@@ -1,0 +1,45 @@
+-myuxi
+-Y
+-z
+-b HOME = 0x0000
+-b ISEG = 0x0000
+-b BSEG = 0x0000
+-r
+-bUIP_BANK=0x28000
+-bAPP_BANK=0x38000
+-bCONST=0x08000
+-k C:\Program Files\SDCC\lib
+-k C:\Program Files\SDCC\bin\..\lib\large
+-l mcs51
+-l libsdcc
+-l libint
+-l liblong
+-l libfloat
+obj\Debug\applications\adcd\adcd.rel
+obj\Debug\apps\smtp\smtp-strings.rel
+obj\Debug\apps\smtp\smtp.rel
+obj\Debug\apps\webserver\base64.rel
+obj\Debug\apps\webserver\http-strings.rel
+obj\Debug\apps\webserver\httpd-cgi.rel
+obj\Debug\apps\webserver\httpd-fs.rel
+obj\Debug\apps\webserver\httpd-param.rel
+obj\Debug\apps\webserver\httpd.rel
+obj\Debug\driver\adc.rel
+obj\Debug\driver\dm9000.rel
+obj\Debug\driver\fan_heater.rel
+obj\Debug\driver\led.rel
+obj\Debug\driver\swtimers.rel
+obj\Debug\ip_avenger\CUart.rel
+obj\Debug\ip_avenger\clock-arch.rel
+obj\Debug\ip_avenger\config.rel
+obj\Debug\ip_avenger\flash\Flash_02x.rel
+obj\Debug\ip_avenger\flash\parameters.rel
+obj\Debug\ip_avenger\main.rel
+obj\Debug\ip_avenger\uip_app_registration\uip_app_registration.rel
+obj\Debug\uip\psock.rel
+obj\Debug\uip\timer.rel
+obj\Debug\uip\uip.rel
+obj\Debug\uip\uip_arp.rel
+obj\Debug\uip\uiplib.rel
+
+-e

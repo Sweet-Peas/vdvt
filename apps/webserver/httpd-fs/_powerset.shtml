@@ -1,0 +1,15 @@
+%!: /header.html
+<center>
+<h1>Övriga Inställningar</h1><br>
+<form>
+<table width="50%" class="mytab">
+<tr><td>Elkostnad</td><td><input type="text" name="elcost" size="5" maxlength="5" value="%! get-frac 0
+"></td></tr>
+</table>
+<br>
+<input type="submit" name="submit" value="spara">
+<input type="reset" name="reset" value="reset">
+</form>
+<br>
+</center>
+%!: /footer.html

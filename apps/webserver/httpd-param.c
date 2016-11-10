@@ -181,7 +181,7 @@ bit LSIG_Testmejl = 0;
 bit LSIG_Reset = 0;
 
 static const char const testmejl[] =        "Test Mejl";
-static const char const testmejlmsg[] =     "Testmejl √Ö√Ñ√ñ√•√§√∂ !";
+static const char const testmejlmsg[] =     "Testmejl ≈ƒ÷Â‰ˆ !";
 
 /*---------------------- Local functions ------------------------------------*/
 static char *skip_to_equal(char *buf)
@@ -504,8 +504,7 @@ static void set_submit(char *buffer) __reentrant
   write_config_to_flash();
   if (LSIG_Testmejl) {
     if (!SMTP_SEND(sys_cfg.email_to_address , NULL, sys_cfg.username,
-        testmejl, testmejlmsg))
-    {
+        testmejl, testmejlmsg)) {
       A_(printf("Failed to connect to mail server\r\n");)
       SET_MAIL_ERR(ERR_ON);
     }

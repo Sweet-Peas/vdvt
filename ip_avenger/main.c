@@ -48,7 +48,7 @@
  *    - C = Informative prints. Should be used on repetetive code that spams
  *          the output but is sometimes useful.
  */
-#define PRINT_A
+//#define PRINT_A
 
 #include "system.h"       // System description
 #include "main.h"         // Locals
@@ -90,6 +90,8 @@ bit LED_EventPending;         // For triggering LED changes
 bit uartByteAvail;		        // True when character is available.
 bit Transmitting;    	        // True when transmitting a character.
 bit uart_tx_buf_full;
+
+int cntr;
 
 #define UPDATE_INTERVAL   25
 // ---------------------------------------------------------------------------
@@ -158,7 +160,10 @@ void main(void)
 
   A_(printf("\r\n");)
   A_(printf("Invector Embedded Technologies Debug system output v. 1.001\r\n");)
-  A_(printf("System: IET902X, 20MHz system clock, DM9000E Ethernet Controller\r\n");)
+  A_(printf("System: IET912X, 20MHz system clock (100MHz CPU), DM9000E Ethernet Controller\r\n");)
+  A_(printf("Stack pointer %x\r\n", (int)SP);)
+  A_(printf("Boot reason: 0x%02x\r\n", boot_reason));
+  A_(printf("Number of WDT Resets: %d\r\n\r\n", wdt_resets));
   A_(printf("Host Settings:\r\n");)
 
   A_(printf("  Network address: %02x-%02x-%02x-",
@@ -193,8 +198,6 @@ void main(void)
 
   RESET_WDT(WDT_RST);
 
-  printf ("Stack pointer %x\r\n", (int)SP);
-
   while(1)
   {
     // Loops here until either a packet has been received or
@@ -212,7 +215,7 @@ void main(void)
 
         // UIP_CONNS - nominally 10 - is the maximum simultaneous
         // connections allowed. Scan through all 10
-        C_(printf("Time for connection periodic management\r\n");)
+        //printf("Time for connection periodic management: %d\r\n", cntr++);
         for (i = 0; i < UIP_CONNS; i++)
         {
           uip_periodic(i);
@@ -221,6 +224,7 @@ void main(void)
           // will be set to a value > 0.
           if (uip_len > 0)
           {
+            printf("There is %d bytes available to send !\r\n");
             /* The uip_arp_out() function should be called when an IP packet should be sent out on the
                Ethernet. This function creates an Ethernet header before the IP header in the uip_buf buffer.
                The Ethernet header will have the correct Ethernet MAC destination address filled in if an
@@ -241,6 +245,7 @@ void main(void)
           }
         }
 
+// This application is not using UDP !
 #if UIP_UDP
         C_(printf("Time for udp periodic management\r\n");)
         for (i = 0; i < UIP_UDP_CONNS; i++)

@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Debug" />
-	<File name="bin\Debug\Uip1.map" open="1" top="0" tabpos="1">
-		<Cursor position="23107" topLine="900" />
+	<File name="bin\Debug\Uip1.map" open="1" top="0" tabpos="14">
+		<Cursor position="20966" topLine="835" />
 	</File>
-	<File name="..\applications\adcd\adcd.c" open="0" top="0" tabpos="4">
-		<Cursor position="1803" topLine="55" />
+	<File name="..\applications\adcd\adcd.c" open="0" top="0" tabpos="7">
+		<Cursor position="4020" topLine="229" />
 	</File>
 	<File name="..\applications\adcd\adcd.h" open="0" top="0" tabpos="5">
 		<Cursor position="2674" topLine="48" />
 	</File>
-	<File name="..\apps\smtp\smtp-strings.c" open="0" top="0" tabpos="6">
+	<File name="..\apps\smtp\smtp-strings.c" open="1" top="0" tabpos="9">
 		<Cursor position="579" topLine="0" />
 	</File>
-	<File name="..\apps\smtp\smtp.c" open="0" top="0" tabpos="7">
-		<Cursor position="633" topLine="33" />
+	<File name="..\apps\smtp\smtp.c" open="1" top="0" tabpos="8">
+		<Cursor position="9333" topLine="129" />
 	</File>
-	<File name="..\apps\smtp\smtp.h" open="0" top="0" tabpos="8">
-		<Cursor position="1398" topLine="7" />
+	<File name="..\apps\smtp\smtp.h" open="1" top="0" tabpos="13">
+		<Cursor position="2419" topLine="37" />
 	</File>
 	<File name="..\apps\webserver\base64.c" open="0" top="0" tabpos="10">
 		<Cursor position="9096" topLine="136" />
 	</File>
-	<File name="..\apps\webserver\httpd-cgi.c" open="0" top="0" tabpos="2">
-		<Cursor position="8956" topLine="358" />
+	<File name="..\apps\webserver\httpd-cgi.c" open="0" top="0" tabpos="6">
+		<Cursor position="8956" topLine="125" />
 	</File>
 	<File name="..\apps\webserver\httpd-fs.c" open="0" top="0" tabpos="9">
 		<Cursor position="1755" topLine="0" />
@@ -31,8 +31,8 @@
 	<File name="..\apps\webserver\httpd-fs\_netset.shtml" open="0" top="0" tabpos="9">
 		<Cursor position="374" topLine="0" />
 	</File>
-	<File name="..\apps\webserver\httpd-fs\_powerset.shtml" open="0" top="0" tabpos="16">
-		<Cursor position="205" topLine="0" />
+	<File name="..\apps\webserver\httpd-fs\_powerset.shtml" open="1" top="0" tabpos="4">
+		<Cursor position="374" topLine="0" />
 	</File>
 	<File name="..\apps\webserver\httpd-fs\footer.html" open="0" top="0" tabpos="1">
 		<Cursor position="304" topLine="0" />
@@ -44,43 +44,43 @@
 		<Cursor position="596" topLine="0" />
 	</File>
 	<File name="..\apps\webserver\httpd-fs\style.css" open="0" top="0" tabpos="10">
-		<Cursor position="817" topLine="14" />
+		<Cursor position="925" topLine="11" />
 	</File>
 	<File name="..\apps\webserver\httpd-fsdata.c" open="0" top="0" tabpos="0">
 		<Cursor position="1181" topLine="0" />
 	</File>
 	<File name="..\apps\webserver\httpd-param.c" open="0" top="0" tabpos="17">
-		<Cursor position="6907" topLine="81" />
+		<Cursor position="14879" topLine="524" />
 	</File>
 	<File name="..\apps\webserver\httpd-param.h" open="0" top="0" tabpos="0">
 		<Cursor position="2033" topLine="1" />
 	</File>
-	<File name="..\apps\webserver\httpd.c" open="0" top="0" tabpos="11">
-		<Cursor position="385" topLine="302" />
+	<File name="..\apps\webserver\httpd.c" open="1" top="0" tabpos="11">
+		<Cursor position="10261" topLine="274" />
 	</File>
 	<File name="..\driver\adc.c" open="0" top="0" tabpos="12">
 		<Cursor position="1547" topLine="0" />
 	</File>
 	<File name="..\driver\dm9000.c" open="0" top="0" tabpos="3">
-		<Cursor position="1518" topLine="288" />
+		<Cursor position="12479" topLine="101" />
 	</File>
 	<File name="..\driver\fan_heater.c" open="0" top="0" tabpos="6">
-		<Cursor position="2444" topLine="22" />
+		<Cursor position="2344" topLine="19" />
 	</File>
 	<File name="..\driver\fan_heater.h" open="0" top="0" tabpos="0">
 		<Cursor position="1685" topLine="0" />
 	</File>
-	<File name="..\driver\led.c" open="0" top="0" tabpos="16">
-		<Cursor position="1667" topLine="11" />
+	<File name="..\driver\led.c" open="1" top="0" tabpos="7">
+		<Cursor position="1754" topLine="58" />
 	</File>
-	<File name="..\driver\swtimers.c" open="0" top="0" tabpos="13">
+	<File name="..\driver\swtimers.c" open="1" top="0" tabpos="6">
 		<Cursor position="2270" topLine="0" />
 	</File>
 	<File name="..\driver\swtimers.h" open="0" top="0" tabpos="14">
 		<Cursor position="2749" topLine="0" />
 	</File>
-	<File name="..\ip_avenger\CUart.c" open="0" top="0" tabpos="4">
-		<Cursor position="4878" topLine="62" />
+	<File name="..\ip_avenger\CUart.c" open="1" top="0" tabpos="5">
+		<Cursor position="3974" topLine="0" />
 	</File>
 	<File name="..\ip_avenger\CUart.h" open="0" top="0" tabpos="7">
 		<Cursor position="1800" topLine="0" />
@@ -88,40 +88,46 @@
 	<File name="..\ip_avenger\clock-arch.c" open="0" top="0" tabpos="7">
 		<Cursor position="1857" topLine="0" />
 	</File>
-	<File name="..\ip_avenger\config.c" open="0" top="0" tabpos="12">
-		<Cursor position="4188" topLine="108" />
+	<File name="..\ip_avenger\config.c" open="1" top="0" tabpos="2">
+		<Cursor position="2061" topLine="30" />
 	</File>
 	<File name="..\ip_avenger\flash\Flash_02x.c" open="0" top="0" tabpos="13">
 		<Cursor position="2619" topLine="27" />
 	</File>
-	<File name="..\ip_avenger\flash\parameters.c" open="0" top="0" tabpos="15">
-		<Cursor position="1302" topLine="36" />
+	<File name="..\ip_avenger\flash\parameters.c" open="1" top="0" tabpos="3">
+		<Cursor position="3058" topLine="39" />
 	</File>
-	<File name="..\ip_avenger\flash\parameters.h" open="0" top="0" tabpos="14">
-		<Cursor position="2935" topLine="29" />
+	<File name="..\ip_avenger\flash\parameters.h" open="1" top="0" tabpos="12">
+		<Cursor position="3325" topLine="31" />
 	</File>
-	<File name="..\ip_avenger\iet_debug.h" open="0" top="0" tabpos="5">
-		<Cursor position="1827" topLine="43" />
+	<File name="..\ip_avenger\iet_debug.h" open="0" top="0" tabpos="8">
+		<Cursor position="2267" topLine="34" />
 	</File>
-	<File name="..\ip_avenger\main.c" open="1" top="1" tabpos="2">
-		<Cursor position="12670" topLine="325" />
+	<File name="..\ip_avenger\main.c" open="1" top="1" tabpos="1">
+		<Cursor position="7892" topLine="197" />
 	</File>
-	<File name="..\ip_avenger\system.h" open="0" top="0" tabpos="17">
-		<Cursor position="3676" topLine="86" />
+	<File name="..\ip_avenger\system.h" open="1" top="0" tabpos="4">
+		<Cursor position="4166" topLine="114" />
 	</File>
 	<File name="..\ip_avenger\uip_app_registration\uip_app_registration.c" open="0" top="0" tabpos="2">
-		<Cursor position="11465" topLine="187" />
+		<Cursor position="2122" topLine="14" />
 	</File>
 	<File name="..\ip_avenger\uip_app_registration\uip_app_registration.h" open="0" top="0" tabpos="0">
-		<Cursor position="6334" topLine="91" />
+		<Cursor position="1684" topLine="73" />
 	</File>
 	<File name="..\uip\psock.h" open="0" top="0" tabpos="0">
-		<Cursor position="6822" topLine="162" />
+		<Cursor position="4765" topLine="99" />
 	</File>
 	<File name="..\uip\uip-conf.h" open="0" top="0" tabpos="0">
 		<Cursor position="1882" topLine="18" />
 	</File>
 	<File name="..\uip\uip.c" open="0" top="0" tabpos="0">
 		<Cursor position="5199" topLine="127" />
+	</File>
+	<File name="..\uip\uip.h" open="0" top="0" tabpos="0">
+		<Cursor position="2214" topLine="38" />
+	</File>
+	<File name="..\uip\uipopt.h" open="1" top="0" tabpos="10">
+		<Cursor position="7130" topLine="219" />
 	</File>
 </CodeBlocks_layout_file>

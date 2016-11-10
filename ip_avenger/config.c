@@ -38,16 +38,16 @@
 #include "iet_debug.h"
 
 unsigned char wdt_resets;
+unsigned char boot_reason;
 
 void config() {
 
+  boot_reason = RSTSRC;
 #ifndef DISABLE_WATCHDOG
-  unsigned char t = RSTSRC;
-
   /* This will keep track on how many wdt resets has occured */
-  if (t & 0x02)
+  if (boot_reason & 0x02)
     wdt_resets = 0;
-  else if (t & 0x08)
+  else if (boot_reason & 0x08)
     wdt_resets++;
 
   /* Enable watch dog and lock it */

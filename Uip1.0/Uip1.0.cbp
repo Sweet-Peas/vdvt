@@ -15,7 +15,7 @@
 					<Add option="--debug" />
 				</Compiler>
 				<ExtraCommands>
-					<Add after="bin\debug\flash_serial.bat" />
+					<Add after="bin\debug\create.bat" />
 					<Mode after="always" />
 				</ExtraCommands>
 			</Target>

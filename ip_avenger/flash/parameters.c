@@ -62,7 +62,7 @@ const struct sys_config default_cfg = {
   (int)95,            /* Assuming a default value of 95/kWh öre for electricity */
   (int)25,            /* Default threshold value */
   { "username",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 },
-  { "password",0,0 },
+  { "password",0,0,0,0,0,0,0,0,0,0,0,0 },
   1                   /* Authentication is enabled by default */
 };
 

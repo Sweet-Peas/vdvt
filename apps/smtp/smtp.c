@@ -54,7 +54,7 @@
  *
  * $Id: smtp.c,v 1.4 2006/06/11 21:46:37 adam Exp $
  */
-// #define PRINT_B
+#define PRINT_AB
 
 #include "uip.h"
 #include "psock.h"
@@ -106,6 +106,8 @@ static
 PT_THREAD(smtp_thread(void))
 {
   PSOCK_BEGIN(&s.psock);
+
+  B_(printf("Starting smtp send thread !\r\n");)
 
   PSOCK_READTO(&s.psock, ISO_nl);
 
@@ -315,6 +317,8 @@ smtp_send(char *to, char *cc, char *from,
   struct uip_conn *conn;
 
   B_(printf("Sending mejl\r\n");)
+  B_(printf("Connecting to: %d.%d.%d.%d:", smtpserver[0] & 0xff, smtpserver[0] >> 8, smtpserver[1] & 0xff, smtpserver[1] >> 8);)
+  B_(printf("%d\r\n", sys_cfg.smtp_port);)
   conn = uip_connect(&smtpserver, htons(sys_cfg.smtp_port));
   if(conn == NULL) {
     B_(printf("Could not connect !\r\n");)

@@ -60,7 +60,7 @@ struct sys_config
 
   int   threshold;                /* Regulator threshold value */
   char  username[30];             /* Username and password */
-  char  password[10];
+  char  password[20];
   char  authenabled;              /* Boolean indicating if authentication is used */
 };
 

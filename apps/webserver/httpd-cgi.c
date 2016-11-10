@@ -65,7 +65,6 @@ HTTPD_CGI_CALL(f_get_stat, "get-stat", get_stat);
 HTTPD_CGI_CALL(f_get_check_box, "get-check", get_check_box);
 HTTPD_CGI_CALL(f_get_string, "get-string", get_string);
 HTTPD_CGI_CALL(f_get_int, "get-int", get_int);
-HTTPD_CGI_CALL(f_get_frac, "get-frac", get_frac);
 
 static const struct httpd_cgi_call *calls[] = {
   &f_get_ip_num,
@@ -75,7 +74,6 @@ static const struct httpd_cgi_call *calls[] = {
   &f_get_check_box,
   &f_get_string,
   &f_get_int,
-  &f_get_frac,
   NULL };
 
 static char *ip_format = "%d.%d.%d.%d";
@@ -149,32 +147,6 @@ PT_THREAD(get_temp(struct httpd_state *s, char *ptr) __reentrant)
   }
 
   sprintf((char *)uip_appdata, "%d.%d", temp / 10, abs(temp % 10));
-
-  PSOCK_SEND_STR(&s->sout, uip_appdata);
-  PSOCK_END(&s->sout);
-}
-/*---------------------------------------------------------------------------*/
-static
-PT_THREAD(get_frac(struct httpd_state *s, char *ptr) __reentrant)
-{
-  int frac = 0;
-  int num;
-
-  PSOCK_BEGIN(&s->sout);
-
-  while (*ptr != ' ')
-    ptr++;
-  ptr++;
-  num = atoi(ptr);
-
-  switch (num)
-  {
-    case 0:
-      frac = sys_cfg.elcost;
-      break;
-  }
-
-  sprintf((char *)uip_appdata, "%d.%d", frac / 100, abs(frac % 100));
 
   PSOCK_SEND_STR(&s->sout, uip_appdata);
   PSOCK_END(&s->sout);

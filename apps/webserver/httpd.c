@@ -323,7 +323,6 @@ PT_THREAD(handle_input(struct httpd_state *s) __reentrant)
         s->is_authorized = check_authorization(&s->inputbuf[ sizeof(http_authorization)-1 ]);
     }
   }
-  /*  httpd_log_file(uip_conn->ripaddr, s->filename);*/
 
   s->state = STATE_OUTPUT;
 
@@ -332,7 +331,6 @@ PT_THREAD(handle_input(struct httpd_state *s) __reentrant)
 
     if (strncmp(s->inputbuf, http_referer, 8) == 0) {
       s->inputbuf[PSOCK_DATALEN(&s->sin) - 2] = 0;
-      /*      httpd_log(&s->inputbuf[9]);*/
     }
   }
 

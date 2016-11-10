@@ -90,6 +90,8 @@
  * Macros used for controlling hardware
  */
 
+//#define DISABLE_WATCHDOG
+
 #define ENTER_CRITICAL_SECTION  EA = 0
 #define EXIT_CRITICAL_SECTION EA = 1
 #define INTERRUPT_OFF         0
@@ -119,6 +121,7 @@ extern struct sys_config sys_cfg;
 extern const struct sys_config default_cfg;
 /* Number of wdt resets */
 extern unsigned char wdt_resets;
+extern unsigned char boot_reason;
 
 /* This is used by the mailer daemon to indicate that someone wants to
  * send out a test email */
